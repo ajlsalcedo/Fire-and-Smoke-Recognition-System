@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fire and smoke image detection project prototype">
+  <title>Fire &amp; Smoke Detection</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+  <header>
+    <h1>Fire &amp; Smoke Detection</h1>
+    <p>Computer-vision project prototype</p>
+  </header>
+
+  <main>
+    <section aria-labelledby="detection-title">
+      <h2 id="detection-title">Analyze an image</h2>
+      <p>Choose an image to prepare it for analysis. Model inference will be connected after the dataset and export format are selected.</p>
+      <label for="image-input">Upload an image</label>
+      <input id="image-input" type="file" accept="image/*">
+      <div id="preview" aria-live="polite"></div>
+      <p id="status" role="status">No image selected.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Prototype only — not a certified fire alarm or emergency service.</p>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/image-upload.js"></script>
+</body>
+</html>

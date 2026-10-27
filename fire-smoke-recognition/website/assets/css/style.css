@@ -1,0 +1,21 @@
+/* Base styles for the initial prototype. */
+:root {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: #18352d;
+  background: #f7f9f8;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+header, main, footer { width: min(960px, 92%); margin-inline: auto; }
+header { padding-block: 2rem 1rem; }
+main { min-height: 55vh; }
+section {
+  background: #fff;
+  border: 1px solid #d8e2de;
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+input { display: block; max-width: 100%; margin-block: .75rem; }
+#preview img { display: block; max-width: 100%; max-height: 420px; margin-top: 1rem; }
+#status { overflow-wrap: anywhere; }
+footer { padding-block: 1.5rem; color: #52635d; font-size: .9rem; }

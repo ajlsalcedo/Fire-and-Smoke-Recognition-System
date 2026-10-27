@@ -1,0 +1,5 @@
+/* Small-screen refinements */
+@media (max-width: 600px) {
+  header { padding-top: 1.25rem; }
+  section { padding: 1rem; }
+}
